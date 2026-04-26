@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Meine Webseite</title>
+    <style>
+      /* Allgemeines Design */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        color: #333;
+      }
+
+      /* Navigation oben */
+      nav {
+        background-color: #333;
+        padding: 15px;
+        text-align: center;
+      }
+      nav a {
+        color: white;
+        margin: 0 15px;
+        text-decoration: none;
+        font-size: 16px;
+      }
+      nav a:hover {
+        color: #00c8c8;
+      }
+
+      /* Hauptbereich */
+      .hero {
+        background-color: #009999;
+        color: white;
+        text-align: center;
+        padding: 80px 20px;
+      }
+      .hero h1 {
+        font-size: 48px;
+        margin-bottom: 10px;
+      }
+      .hero p {
+        font-size: 20px;
+      }
+
+      /* Inhaltsbereich */
+      .content {
+        max-width: 900px;
+        margin: 40px auto;
+        padding: 0 20px;
+      }
+      .content h2 {
+        color: #009999;
+      }
+
+      /* Kontaktbereich */
+      .contact {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 40px 20px;
+      }
+      .contact a {
+        color: #00c8c8;
+      }
+
+      /* Footer */
+      footer {
+        text-align: center;
+        padding: 20px;
+        font-size: 13px;
+        color: #999;
+      }
+    </style>
+  </head>
+  <body>
+
+    <!-- Navigation -->
+    <nav>
+      <a href="#ueber-uns">Über uns</a>
+      <a href="#leistungen">Leistungen</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+
+    <!-- Startbereich -->
+    <div class="hero">
+      <h1>Willkommen bei [Firmenname]! 👋</h1>
+      <p>Ihr zuverlässiger Partner für [Ihre Leistung]</p>
+    </div>
+
+    <!-- Über uns -->
+    <div class="content" id="ueber-uns">
+      <h2>Über uns</h2>
+      <p>
+        Hier steht ein kurzer Text über dein Unternehmen. 
+        Wer seid ihr? Was macht ihr? Seit wann gibt es euch?
+      </p>
+    </div>
+
+    <!-- Leistungen -->
+    <div class="content" id="leistungen">
+      <h2>Unsere Leistungen</h2>
+      <ul>
+        <li>✅ Leistung 1</li>
+        <li>✅ Leistung 2</li>
+        <li>✅ Leistung 3</li>
+      </ul>
+    </div>
+
+    <!-- Kontakt -->
+    <div class="contact" id="kontakt">
+      <h2>Kontakt</h2>
+      <p>📧 E-Mail: <a href="mailto:info@meinefirma.de">info@meinefirma.de</a></p>
+      <p>📞 Telefon: +49 123 456789</p>
+      <p>📍 Adresse: Musterstraße 1, 12345 Musterstadt</p>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <p>© 2025 [Firmenname] | <a href="#">Impressum</a> | <a href="#">Datenschutz</a></p>
+    </footer>
+
+  </body>
+</html>
